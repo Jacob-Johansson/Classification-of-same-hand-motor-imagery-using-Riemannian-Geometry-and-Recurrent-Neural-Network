@@ -21,10 +21,7 @@ To run this project locally, you will need Python 3.12.9+ and pip.
 
 
 ![](assets/Classifier_comparison.png)
-This image displays two box plots, labeled A and B, which illustrate the performance of the different classifiers (MDRM, SVM, RNN) based on an "AUC" (Area Under the Curve) metric.
+This figure, composed of two panels, displays the performance comparison of three classification models ($\text{MDRM}$, $\text{SVM}$, and $\text{RNN}$) using the Area Under the Curve ($\text{AUC}$) metric.Panel A (Classifier Performance by Subject): This panel shows the distribution of $\text{AUC}$ values for the three classifiers across 13 different experimental subjects. For each subject, the data represents the performance achieved using the most optimal frequency bandwidth determined for that specific individual. The box plots summarize the central tendency and variability of the $\text{AUC}$ scores for each classifier-subject combination.Panel B (Optimization Comparison): This panel directly compares the impact of optimization on the $\text{AUC}$ performance of the three classifiers. For each model ($\text{MDRM}$, $\text{SVM}$, $\text{RNN}$), the dark gray box plot represents the distribution of $\text{AUC}$ scores after optimization, while the light gray box plot represents the performance before optimization (Non-optimized).
 
-Panel A: Shows a comparison of AUC values for the three classifiers (MDRM, SVM, RNN) across 13 different subjects of the most optimal frequenct bandwidth per subject. Each subject has a set of box plots representing the distribution of AUC scores for each classifier.
-
-Panel B: Presents a comparison of "Optimized" vs. "Non-optimized" performance for the same three classifiers (MDRM, SVM, RNN). For each classifier, there are two box plots: one dark gray for "Optimized" and one light gray for "Non-optimized", indicating a potential performance difference due to optimization.
-
-![Screenshot of the app running](assets/RNN_optimized.png)
+![](assets/RNN_optimized.png)
+This figure presents a detailed multi-variate box plot analysis of the Recurrent Neural Network ($\text{RNN}$) model's performance, measured by the $\text{AUC}$ metric. The analysis explores the effects of different frequency bandwidths on $\text{RNN}$ performance across all subjects.The results are grouped by individual subject (labeled Person 1 through Person 13).For each subject, five distinct box plots compare the $\text{AUC}$ distribution across different frequency band widths (e.g., 2 Hz, 4 Hz, 8 Hz, 16 Hz, 32 Hz).The $\text{RNN}$ model was trained for 300 epochs and with a  fixed1000ms time window. This visualization helps identify which frequency bandwidths yield the most robust $\text{AUC}$ scores for the $\text{RNN}$ model.
