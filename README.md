@@ -20,5 +20,11 @@ To run this project locally, you will need Python 3.12.9+ and pip.
     ```
 
 
-![Screenshot of the app running](assets/Classifier_comparison.png)
+![](assets/Classifier_comparison.png)
+This image displays two box plots, labeled A and B, which likely illustrate the performance of different machine learning classifiers (MDRM, SVM, RNN) based on an "AUC" (Area Under the Curve) metric.
+
+Panel A: Shows a comparison of AUC values for the three classifiers (MDRM, SVM, RNN) across 13 different subjects. Each subject has a set of box plots representing the distribution of AUC scores for each classifier.
+
+Panel B: Presents a comparison of "Optimized" vs. "Non-optimized" performance for the same three classifiers (MDRM, SVM, RNN). For each classifier, there are two box plots: one dark gray for "Optimized" and one light gray for "Non-optimized", indicating a potential performance difference due to optimization.
+
 ![Screenshot of the app running](assets/RNN_optimized.png)
