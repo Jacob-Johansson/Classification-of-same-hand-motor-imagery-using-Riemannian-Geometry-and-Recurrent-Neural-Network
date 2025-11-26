@@ -20,7 +20,7 @@ To run this project locally, you will need Python 3.12.9+ and pip.
     ```
 
 The complete text of the paper can be accessed here until the it's published officially:
-[Hand_MI_classification_using_Riemannian_Geometry_RNN](assets/Hand_MI_classification_using_Riemannian_Geometry_RNN)
+[Hand_MI_classification_using_Riemannian_Geometry_RNN](assets/Hand_MI_classification_using_Riemannian_Geometry_RNN.pdf)
 
 ![](assets/Classifier_comparison.png)
 This figure, composed of two panels, displays the performance comparison of three classification models ($\text{MDRM}$, $\text{SVM}$, and $\text{RNN}$) using the Area Under the Curve ($\text{AUC}$) metric.Panel A (Classifier Performance by Subject): This panel shows the distribution of $\text{AUC}$ values for the three classifiers across 13 different experimental subjects. For each subject, the data represents the performance achieved using the most optimal frequency bandwidth determined for that specific individual. The box plots summarize the central tendency and variability of the $\text{AUC}$ scores for each classifier-subject combination.Panel B (Optimization Comparison): This panel directly compares the impact of optimization on the $\text{AUC}$ performance of the three classifiers. For each model ($\text{MDRM}$, $\text{SVM}$, $\text{RNN}$), the dark gray box plot represents the distribution of $\text{AUC}$ scores after optimization, while the light gray box plot represents the performance before optimization (Non-optimized).
