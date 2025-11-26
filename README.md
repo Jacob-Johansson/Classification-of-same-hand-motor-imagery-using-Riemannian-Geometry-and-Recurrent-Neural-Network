@@ -4,7 +4,7 @@ This project presents a novel hybrid approach for Electroencephalography (EEG)-b
 
 ## 🛠️ Dependency Setup
 
-To run this project locally, you will need Python 3.12+ and pip.
+To run this project locally, you will need Python 3.12.9+ and pip.
 
 1.  **Clone the Repository**
     ```bash
