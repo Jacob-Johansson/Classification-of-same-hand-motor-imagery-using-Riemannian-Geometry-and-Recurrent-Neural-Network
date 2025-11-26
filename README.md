@@ -21,3 +21,4 @@ To run this project locally, you will need Python 3.12.9+ and pip.
 
 
 ![Screenshot of the app running](assets/Classifier_comparison.png)
+![Screenshot of the app running](assets/RNN_optimized.png)
