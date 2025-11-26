@@ -18,3 +18,6 @@ To run this project locally, you will need Python 3.12.9+ and pip.
     source venv/bin/activate  # On Windows, use: venv\Scripts\activate
     pip install -r requirements.txt
     ```
+
+
+![Screenshot of the app running](Classifier_comparison/.png)
