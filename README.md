@@ -8,7 +8,7 @@ To run this project locally, you will need Python 3.12+ and pip.
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/YourUsername/your-repo.git](https://github.com/YourUsername/your-repo.git)
+    git clone [https://github.com/Jacob-Johansson/Classification-of-same-hand-motor-imagery-using-Riemannian-Geometry-and-Recurrent-Neural-Network.git)
     cd your-repo
     ```
 2.  **Install Dependencies**
